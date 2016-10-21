@@ -1,15 +1,17 @@
 package at.fhj.itm.swq.debug;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class BookTable
 {
-	private Set<Book> books;
+	private Set<Book> books = new HashSet<Book>();
 	
 	public void insert(Book book)
 	{
 		if(book == null)
 			throw new IllegalArgumentException();
+		
 		books.add(book);
 	}
 
