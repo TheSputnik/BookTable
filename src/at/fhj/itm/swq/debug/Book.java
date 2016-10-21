@@ -80,7 +80,7 @@ public class Book
 		this.authors = authors;
 	}
 	
-	public String toSting()
+	public String toString()
 	{
 		return getId() + "," + getTitle() + "," + getAuthors();
 	}
