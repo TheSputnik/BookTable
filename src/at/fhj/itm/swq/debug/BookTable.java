@@ -24,7 +24,7 @@ public class BookTable
 		
 		for(Book b: books)
 		{
-			if(getId() == id)
+			if(b.getId() == id)
 				return b;
 		}
 		return null;
@@ -35,9 +35,5 @@ public class BookTable
 		return books;
 	}
 	
-	private int getId()
-	{
-		// TODO Auto-generated method stub
-		return 0;
-	}
+	
 }

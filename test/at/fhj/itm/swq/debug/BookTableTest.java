@@ -25,8 +25,6 @@ public class BookTableTest
 	@Before
 	public void setup()
 	{
-		logger.info("Starting test: " + testname.getMethodName());
-		
 		table = new BookTable();
 		table.insert(new Book(1, "Effective Java: A Programming Language Guide", "Joshua Bloch"));
 		table.insert(new Book(2, "Design Patterns. Elements of Reusable Object-Oriented Software",
